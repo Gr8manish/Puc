@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#474791" >
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#474791"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/textView111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:text="Login Screen"
+            android:textColor="#99CCFF"
+            android:textSize="50sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <EditText
+                android:id="@+id/et_license"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#404068"
+                android:hint="Enter License Number"
+                android:inputType="textVisiblePassword|textNoSuggestions"
+                android:padding="10dp"
+                android:password="false"
+                android:singleLine="true"
+                android:textColor="#A6CADC"
+                android:textColorHint="#CCFFFF"
+                android:textCursorDrawable="@drawable/color_cursor" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#404068"
+                android:hint="Enter Password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="#A6CADC"
+                android:textColorHint="#CCFFFF"
+                android:textCursorDrawable="@drawable/color_cursor" />
+
+            <!-- Login Button -->
+
+            <Button
+                android:id="@+id/bSkip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/button_custom"
+                android:text="click here to skip this step as my  server is not working"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/button_custom"
+                android:text="Login"
+                android:textStyle="bold" />
+
+            <!-- Link to Login Screen -->
+
+            <Button
+                android:id="@+id/btnLinkToRegisterScreen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dip"
+                android:background="#92A5CC"
+                android:text="Click here to Register "
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

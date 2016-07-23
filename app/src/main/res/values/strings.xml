@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Puc</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Puc Home</string>
+    <string name="logout">Logout</string>
+    <string name="others">Others</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/logout</item>
+        <item>@string/others</item>
+    </string-array>
+
+</resources>
+

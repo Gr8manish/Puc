@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#474791" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#474791"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:paddingTop="50dp" >
+
+        <TextView
+            android:id="@+id/textView1111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:text="SignUp Screen"
+            android:textColor="#99CCFF"
+            android:textSize="50sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <EditText
+                android:id="@+id/etfname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="#404068"
+                android:ems="10"
+                android:hint="First Name"
+                android:inputType="textVisiblePassword|textNoSuggestions"
+                android:padding="10dp"
+                android:password="false"
+                android:singleLine="true"
+                android:textColor="#A6CADC"
+                android:textColorHint="#CCFFFF"
+                android:textCursorDrawable="@drawable/color_cursor" />
+
+            <EditText
+                android:id="@+id/etlname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="#404068"
+                android:ems="10"
+                android:hint="Last Name"
+                android:inputType="textVisiblePassword|textNoSuggestions"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="#A6CADC"
+                android:textColorHint="#CCFFFF"
+                android:textCursorDrawable="@drawable/color_cursor" >
+            </EditText>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etDL"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#404068"
+            android:ems="10"
+            android:hint="License Number"
+            android:inputType="textNoSuggestions"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#A6CADC"
+            android:textColorHint="#CCFFFF"
+            android:textCursorDrawable="@drawable/color_cursor" />
+
+        <EditText
+            android:id="@+id/etpassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#404068"
+            android:ems="10"
+            android:hint="New Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#A6CADC"
+            android:textColorHint="#CCFFFF"
+            android:textCursorDrawable="@drawable/color_cursor" />
+
+        <EditText
+            android:id="@+id/etemail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#404068"
+            android:ems="10"
+            android:hint="Enter Email Here"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#A6CADC"
+            android:textColorHint="#CCFFFF"
+            android:textCursorDrawable="@drawable/color_cursor" />
+
+        <EditText
+            android:id="@+id/etMobile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#404068"
+            android:ems="10"
+            android:hint="Enter Mobile no Here"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="#A6CADC"
+            android:textColorHint="#CCFFFF"
+            android:textCursorDrawable="@drawable/color_cursor" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Male"
+                    android:textColor="#CCFFFF" />
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:textColor="#CCFFFF" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_custom"
+            android:paddingLeft="9dp"
+            android:paddingRight="9dp"
+            android:text="Register" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#474791"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <Button
+                android:id="@+id/btnLinkToLoginScreen"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="#92A5CC"
+                android:text="Go to Login Screen"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

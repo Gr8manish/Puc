@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion '24.0.1'
+
+    defaultConfig {
+        applicationId "optimist.mechanic.hnmn3.puc"
+        minSdkVersion 15
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+
+        resValue "string", "API_KEY", API_KEY
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/dependencies.txt'
+        exclude 'META-INF/LGPL2.1'
+    }
+    buildTypes.each {
+        it.buildConfigField 'String', 'API_KEY', "\""+API_KEY+"\""
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:24.1.0'
+    compile 'com.google.android.gms:play-services:6.5.87'
+    compile 'com.android.support:recyclerview-v7:24.1.0'
+    compile 'com.android.support:support-v4:24.1.0'
+    compile project(':httpclient-4.1')
+    compile project(':httpcore-4.1')
+    compile project(':httpmime-4.1-beta1')
+}
