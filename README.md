@@ -7,4 +7,4 @@
 
 ---
 
-![alt tag](https://github.com/Gr8manish/Puc/blob/master/Screenshots/one.png "Puc") ![alt tag](https://github.com/Gr8manish/Puc/blob/master/Screenshots/two.png "Puc") ![alt tag](https://github.com/Gr8manish/Puc/blob/master/Screenshots/three.png "Puc") ![alt tag](https://github.com/Gr8manish/Puc/blob/master/Screenshots/four.png "Puc") ![alt tag](https://github.com/Gr8manish/Puc/blob/master/Screenshots/five.png "Puc")
+![alt tag](https://github.com/Gr8manish/Puc/blob/master/Screenshots/one.png "Login Screen") ![alt tag](https://github.com/Gr8manish/Puc/blob/master/Screenshots/two.png "Sign Up Screen") ![alt tag](https://github.com/Gr8manish/Puc/blob/master/Screenshots/three.png "Before starting ride") ![alt tag](https://github.com/Gr8manish/Puc/blob/master/Screenshots/four.png "After Starting ride") ![alt tag](https://github.com/Gr8manish/Puc/blob/master/Screenshots/five.png "At the End of ride")
